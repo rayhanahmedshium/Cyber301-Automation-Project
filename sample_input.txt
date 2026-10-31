@@ -1,0 +1,28 @@
+From: IT Help Desk <helpdesk@example.edu>
+Subject: FW: Suspicious login alert - please review
+
+Hi team,
+
+A student forwarded the message below. It looks like a phishing attempt.
+Please do not click any of the links.
+
+----- Forwarded message -----
+Your campus account will be locked in 24 hours. Verify now at
+http://login-verify.example.net/secure/update.php?id=88231.
+If you have questions call (610) 555-0142 or 610.555.0199 ext 204.
+Reply to Account.Security@Example.net or support-team@example.org.
+-----------------------------
+
+Firewall log excerpt from this morning:
+  2026-10-30 08:14:22 DENY  src=203.0.113.45   dst=10.0.4.12  port=443
+  2026-10-30 08:14:25 DENY  src=203.0.113.45   dst=10.0.4.12  port=443
+  2026-10-30 08:15:02 ALLOW src=198.51.100.7   dst=10.0.4.12  port=80
+  2026-10-30 08:16:40 DENY  src=999.20.1.300   dst=10.0.4.12  port=22   (malformed entry)
+
+The sender also linked https://example.com/reset and https://cdn.example.org/assets/logo.png.
+
+For anything urgent, contact the security office at 484-555-0177
+or security@example.edu. After hours: 555-0123.
+
+Thanks,
+Help Desk

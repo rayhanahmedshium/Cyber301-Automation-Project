@@ -1,0 +1,15 @@
+type,value
+phone,610-555-0142
+phone,610-555-0199 x204
+phone,484-555-0177
+phone,555-0123
+email,helpdesk@example.edu
+email,account.security@example.net
+email,support-team@example.org
+email,security@example.edu
+url,http://login-verify.example.net/secure/update.php?id=88231
+url,https://example.com/reset
+url,https://cdn.example.org/assets/logo.png
+ipv4,203.0.113.45
+ipv4,10.0.4.12
+ipv4,198.51.100.7
